@@ -15,6 +15,10 @@ Other Resources
 
 Related Posts
 =============
+[I'll take some Elasticsearch/Kibana with my Plaso (Windows edition)](http://blog.kiddaland.net/2014/06/ill-take-some-elasticsearchkibana-with.html)
+
+[Finding the Needle in the Haystack with ELK](https://digital-forensics.sans.org/summit-archives/dfirprague14/Finding_the_Needle_in_the_Haystack_with_FLK_Christophe_Vandeplas.pdf)
+
 [Rapid Log Analysis](http://www.505forensics.com/rapid-log-analysis/)
 
 [Do you even Bro, bro?](http://www.505forensics.com/do-you-even-bro-bro/)
