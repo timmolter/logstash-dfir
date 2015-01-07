@@ -62,7 +62,6 @@ translate {
       451, "Requested action aborted; local processing error",
       452, "Requested action aborted; insufficient storage space",
       
-
       #5xx Codes are Permanent Negative Completion Replies
       501, "Syntax error in parameters or arguments",
       502, "Command not implemented",
