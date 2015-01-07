@@ -1,0 +1,15 @@
+########################
+# logstash Grok Pattern File - Bro IDS Logs
+# Created by 505Forensics (http://www.505forensics.com)
+# MIT License, so do what you want with it!
+#
+# For use with logstash to wrangle Bro IDS logs
+#
+# Usage: Reference this Grok Pattern File in your logstash config when importing Bro IDS logs
+#
+# Dependencies: Standard Bro log delimiter is tab.
+#
+#######################
+
+#Bro Conn Logs
+BRO-CONN %{DATA:ts}\t%{DATA:uid}\t%{IP:id.orig_h}\t%{NUMBER:id.orig_p:int}\t%{IP:id.resp_h}\t%{NUMBER:id.resp_p:int}\t%{DATA:proto}\t%{DATA:service}\t%{DATA:duration}\t%{NUMBER:orig_bytes:int}\t%{NUMBER:resp_bytes:int}\t%{DATA:conn_state}\t%{DATA:local_orig}\t%{NUMBER:missed_bytes:int}\t%{DATA:history}\t%{NUMBER:orig_pkts:int}\t%{NUMBER:orig_ip_bytes:int}\t%{NUMBER:resp_pkts:int}\t%{NUMBER:resp_ip_bytes:int}\t%{DATA:tunnel_parents}

@@ -24,7 +24,7 @@ translate {
       #1xx Codes Are Informational
       100, "Continue",
       101, "Switching Protocols",
-      102, "Processing"
+      102, "Processing",
       
       #2xx Codes Are Successful; We Like These
       200, "OK",
@@ -36,7 +36,7 @@ translate {
       206, "Partial Content",
       207, "Multi-Status",
       208, "Already Reported",
-      226, "Instance Manipulation Used"
+      226, "Instance Manipulation Used",
       
       #3xx Codes Indicate that Further User Agent Action May be Needed
       300, "Multiple Choices",
@@ -47,7 +47,7 @@ translate {
       305, "Use Proxy",
       #306 is no longer used, however is still reserved
       307, "Temporary Redirect",
-      308, "Permanent Redirect"
+      308, "Permanent Redirect",
       
       #4xx Codes Refer to Client Errors
       400, "Bad Request",
@@ -79,7 +79,6 @@ translate {
       444, "No Response (This is specific to Nginx)",
       450, "Blocked my Microsoft Windows Parental Controls",
       
-
       #5xx Codes Refer to Server Errors
       500, "Internal Server Error",
       501, "Not Implemented",
