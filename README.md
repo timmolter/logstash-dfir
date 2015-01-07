@@ -16,7 +16,9 @@ Other Resources
 Related Posts
 =============
 [Rapid Log Analysis](http://www.505forensics.com/rapid-log-analysis/)
+
 [Do you even Bro, bro?](http://www.505forensics.com/do-you-even-bro-bro/)
+
 [Utilizing Dictionaries with Logstash](http://www.505forensics.com/utilizing-dictionaries-with-logstash/)
 
 Changelog
