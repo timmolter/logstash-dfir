@@ -15,6 +15,8 @@ Related Posts
 
 Changelog
 =============
+07 Jan 2015 - Uploaded logstash dictionaries for HTTP, FTP, and Bro IDS conn log status codes
+
 04 Sep 2014 - Uploaded Bro IDS logs; thanks to team at http://www.appliednsm.com for laying the groundwork
 
 02 Mar 2014 - Added log2timeline logstash config
