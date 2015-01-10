@@ -1,0 +1,62 @@
+{
+    "log2timeline": {
+        "_timestamp": {
+            "enabled": "true",
+            "path": "datetime",
+            "default": "null"
+        },
+        "_source": {
+            "enabled": true
+        },
+        "properties": {
+            "datetime": {
+                "type": "date"
+            },
+            "timezone": {
+                "type": "string"
+            },
+            "MACB": {
+                "type": "string"
+            },
+            "source": {
+                "type": "string"
+            },
+            "sourcetype": {
+                "type": "string"
+            },
+            "type": {
+                "type": "string"
+            },
+            "user": {
+                "type": "string"
+            },
+            "host": {
+                "type": "string"
+            },
+            "short": {
+                "type": "string"
+            },
+            "desc": {
+                "type": "string"
+            },
+            "version": {
+                "type": "string"
+            },
+            "filename": {
+                "type": "string"
+            },
+            "inode": {
+                "type": "string"
+            },
+            "notes": {
+                "type": "string"
+            },
+            "format": {
+                "type": "string"
+            },
+            "extra": {
+                "type": "string"
+            }
+        }
+    }
+}
