@@ -2,15 +2,16 @@
     "log2timeline": {
         "_timestamp": {
             "enabled": "true",
-            "path": "datetime",
+            "path": "timestamp",
             "default": "null"
         },
         "_source": {
             "enabled": true
         },
         "properties": {
-            "datetime": {
-                "type": "date"
+            "timestamp": {
+                "type": "date",
+                "format" : "dateOptionalTime"
             },
             "timezone": {
                 "type": "string"
@@ -19,43 +20,52 @@
                 "type": "string"
             },
             "source": {
-                "type": "string"
+                "type": "string",
+                "index": "not_analyzed"
             },
             "sourcetype": {
-                "type": "string"
+                "type": "string",
+                "index": "not_analyzed"
             },
             "type": {
                 "type": "string"
             },
             "user": {
-                "type": "string"
+                "type": "string",
+                "index": "not_analyzed"
             },
             "host": {
-                "type": "string"
+                "type": "string",
+                "index": "not_analyzed"
             },
             "short": {
-                "type": "string"
+                "type": "string",
+                "index": "not_analyzed"
             },
             "desc": {
-                "type": "string"
+                "type": "string",
+                "index": "not_analyzed"
             },
             "version": {
                 "type": "string"
             },
             "filename": {
-                "type": "string"
+                "type": "string",
+                "index": "not_analyzed"
             },
             "inode": {
-                "type": "string"
+                "type": "long"
             },
             "notes": {
-                "type": "string"
+                "type": "string",
+                "store" : "no"
             },
             "format": {
                 "type": "string"
             },
             "extra": {
-                "type": "string"
+                "type": "string",
+                "store" : "no"
             }
         }
     }
