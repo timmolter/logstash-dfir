@@ -1,0 +1,73 @@
+{
+    "hpfeed": {
+        "properties": {
+            "channel": {
+                "type": "string"
+            },
+            "ident": {
+                "type": "string"
+            },
+            "last_error": {
+                "type": "string"
+            },
+            "last_error_timestamp": {
+                "type": "date",
+                "format": "dateOptionalTime"
+            },
+            "normalized": {
+                "type": "boolean"
+            },
+            "payload": {
+                "properties": {
+                    "commands": {
+                        "type": "string"
+                    },
+                    "credentials": {
+                        "type": "string"
+                    },
+                    "endTime": {
+                        "type": "date",
+                        "format": "dateOptionalTime"
+                    },
+                    "hostIP": {
+                        "type": "ip",
+                        "null_value": "null"
+                    },
+                    "hostPort": {
+                        "type": "long"
+                    },
+                    "loggedin": {
+                        "type": "string"
+                    },
+                    "peerIP": {
+                        "type": "ip",
+                        "null_value": "null"
+                    },
+                    "peerPort": {
+                        "type": "long"
+                    },
+                    "session": {
+                        "type": "string"
+                    },
+                    "startTime": {
+                        "type": "date",
+                        "format": "dateOptionalTime"
+                    },
+                    "ttylog": {
+                        "type": "string"
+                    },
+                    "unknownCommands": {
+                        "type": "string"
+                    },
+                    "version": {
+                        "type": "string"
+                    }
+                }
+            },
+            "timestamp": {
+                "type": "date",
+                "format": "dateOptionalTime"
+            }
+        }
+    }
+}
