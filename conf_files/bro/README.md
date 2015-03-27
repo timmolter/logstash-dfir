@@ -1,10 +1,9 @@
 ## Logstash
 
 	sudo nano /etc/logstash/conf.d/bro-conn_log.conf
-
 	sudo -u logstash /opt/logstash/bin/logstash -f /etc/logstash/conf.d/bro-conn_log.conf --debug
-
 	sudo -u logstash /opt/logstash/bin/logstash agent -f /etc/logstash/conf.d/bro-conn_log.conf --configtest
+	sudo -u logstash /opt/logstash/bin/logstash agent -f /etc/logstash/conf.d --configtest
 
 ## Bro
 
@@ -27,5 +26,3 @@
 	sudo wget -N https://raw.githubusercontent.com/timmolter/logstash-dfir/master/conf_files/bro/bro-ssl_log.conf
 	sudo wget -N https://raw.githubusercontent.com/timmolter/logstash-dfir/master/conf_files/bro/bro-weird_log.conf
 	sudo wget -N https://raw.githubusercontent.com/timmolter/logstash-dfir/master/conf_files/bro/bro-x509_log.conf
-
-	sudo -u logstash /opt/logstash/bin/logstash agent -f /etc/logstash/conf.d --configtest
