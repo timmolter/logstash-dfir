@@ -74,7 +74,7 @@ translate {
       426, "Upgrade Required",
       428, "Precondition Required",
       429, "Too Many Requests",
-      431, "Request Header Fields Too Large"
+      431, "Request Header Fields Too Large",
       440, "Login Timeout",
       444, "No Response (This is specific to Nginx)",
       450, "Blocked my Microsoft Windows Parental Controls",
