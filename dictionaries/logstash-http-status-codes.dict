@@ -66,7 +66,7 @@ translate {
       413, "Request Entity Too Large",
       414, "Request URI Too Long",
       415, "Unsupported Media Type",
-      416, "Requested Range Not Satisfiable,
+      416, "Requested Range Not Satisfiable",
       417, "Expectation Failed",
       422, "Unprocessable Entity",
       423, "Locked",
